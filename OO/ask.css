@@ -1,18 +1,14 @@
-@import url(https://fonts.googleapis.com/css?family=Tangerine:regular,700);
+@import url(https://fonts.googleapis.com/css?family=Honk:regular);
 
 body {
-    font-family: 'Tangerine'; /* Specify the Tangerine font */
-    font-size: 36px; /* Adjust the font size as needed */
-    color: red;
+    font-family: Honk;
+    
     margin: 0;
     padding: 0;
-    background-color: pink; 
-    background-image: url(flower.jpg);
-    background-size: cover;
-    background-position: center;
-    /* Set the background color */
-}
+    background-color: pink; /* Set the background color */
 
+    
+}
 
 .container {
     display: flex;
@@ -58,36 +54,4 @@ button {
 img {
     width: 200px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 20px;
-}
-
-#heart-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    pointer-events: none; /* Make sure the hearts don't interfere with button clicks */
-}
-
-.heart {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    background-image: url('heart.png'); /* Replace 'heart.png' with your heart image */
-    background-size: contain;
-    background-repeat: no-repeat;
-    animation: heartAnimation 2s ease-out;
-}
-
-@keyframes heartAnimation {
-    0% {
-        transform: translateX(-50%) translateY(-50%) scale(0);
-    }
-    100% {
-        transform: translateX(-50%) translateY(-150vh) scale(1);
-        opacity: 0;
-    }
 }
