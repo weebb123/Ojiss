@@ -1,0 +1,261 @@
+/* Reset some default margin and padding for consistency */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: orange;
+  padding: 10px 0;
+  text-align: center;
+  
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  border: orange 2px solid;
+  padding: 5px;
+  border-radius: 8px;
+  background-color: orange;
+}
+
+nav ul li:hover {
+  background-color: orangered;
+  
+}
+nav a {
+  text-decoration: none;
+  color: rgb(3, 3, 3);
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: white;
+}
+
+
+
+/* Main section styles */
+main {
+  padding: 20px;
+}
+
+/* About section styles */
+#about {
+  background-color: #333;
+  padding: 20px;
+  color: orange;
+}
+
+/* Products section styles */
+#products {
+  margin-top: 20px;
+}
+
+#products h2 {
+  color: #333;
+}
+
+#products ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#products li {
+  margin-bottom: 10px;
+}
+
+/* Contact section styles */
+#contact {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Products section styles */
+#products {
+  margin-top: 20px;
+}
+
+#products h2 {
+  color: #000;
+  text-align:  center;
+  margin-bottom: 10px;
+  border: orange 1px solid;
+  background-color: orange;
+}
+
+#products ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#products li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+#products li a {
+  text-decoration: none;
+  color: orange;
+  font-weight: bold;
+}
+
+#products li a:hover {
+  color: orangered;
+}
+
+/* Additional Products List Styles */
+#products ul {
+  background-color: #2b2929;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#products li {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+
+#products li:last-child {
+  border-bottom: none; /* Remove border from the last list item */
+}
+
+
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* Contact section styles */
+#contact {
+  background-color: #333;
+  padding: 20px;
+}
+
+#contact h2 {
+  color: orange;
+  justify-self: center;
+  text-align: center;
+
+}
+
+#contact p {
+  margin-bottom: 15px;
+  color: orange;
+  text-align: center;
+}
+
+#contact a {
+  text-decoration: none;
+  color: orange;
+  font-weight: bold;
+}
+
+#contact a:hover {
+  color: orangered;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  border: orange 2px solid;
+  border-radius: 10px;
+  background-color: #333;
+  color: orange;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+label{
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, textarea{
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: orange 1px solid;
+  width: 300px;
+}
+
+button{
+  background-color: orange;
+  color: #000;
+  padding: 10px 20px;
+  border: orangered 3px solid;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 10%;
+  margin-top: 50px;
+  width: 250px;
+}
+
+button:hover{
+  background-color: orangered;
+  color: #f5f5f5;
+}
+
+body{
+  background-color: orange;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border: #333;
+  background-color: #333;
+  border-radius: 5px;
+  padding: 10px;
+  
+}
+
+a:hover{
+  background-color: orangered;
+  color: #f5f5f5;
+}
+
+footer{
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+

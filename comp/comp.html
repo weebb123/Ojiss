@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compliment Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #FFB6C1, #FF69B4);
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        #compliment-container {
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+            border: purple 3px solid;
+        }
+
+        #change-button {
+            background-color: #5cb85c; /* Different color */
+            color: white;
+            padding: 15px 30px; /* Larger padding */
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            font-size: 18px; /* Slightly larger font size */
+            cursor: pointer;
+            border-radius: 10px; /* Rounder corners */
+            margin-top: px; /* Increased margin-top */
+            transition: background-color 0.3s ease;
+            margin-left: 40px;
+        }
+
+        #change-button:hover {
+            background-color: #4cae4c; /* Darker color on hover */
+        }
+    </style>
+</head>
+<body>
+    <div id="compliment-container">
+        <!-- Your compliments will go here -->
+        <p>You're the sunshine of my life.</p>
+        <p>Your kindness knows no bounds.</p>
+        <p>Every moment with you is a treasure.</p>
+        <p>.</p>
+        <p></p>
+        <!-- Add more compliments as needed -->
+    </div>
+
+    <button id="change-button">Change Compliment</button>
+
+    <script>
+        const complimentContainer = document.getElementById('compliment-container');
+        const changeButton = document.getElementById('change-button');
+
+        function displayRandomCompliment() {
+            const compliments = [
+                "You're amazing!",
+                "I appreciate you every day.",
+                "Your smile brightens my day.",
+                 "You make every day brighter",
+                 "Your laughter is the sweetest melody"
+                 
+            ];
+
+            const randomIndex = Math.floor(Math.random() * compliments.length);
+            const compliment = compliments[randomIndex];
+            complimentContainer.innerText = compliment;
+        }
+
+        // Call the function to display an initial compliment
+        displayRandomCompliment();
+
+        // Add an event listener to the button to change the compliment
+        changeButton.addEventListener('click', displayRandomCompliment);
+    </script>
+</body>
+</html>
+
+
+
+

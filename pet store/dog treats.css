@@ -1,0 +1,303 @@
+/* Reset some default margin and padding for consistency */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 10px;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #333;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 26px;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Individual container styles */
+  #2 .container,
+  #3 .container,
+  #4 .container,
+  #5 .container,
+  #6 .container {
+    margin-top: 20px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  
+  /* Styles for the container */
+.container-1 {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #fff; /* Background color for the container */
+    border: 1px solid orange; /* Border for better visibility */
+    border-radius: 8px; /* Rounded corners for a modern look */
+  }
+  
+  /* Styles for the heading */
+  .container-1 h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Styles for the image */
+  .container-1 img {
+    display: block;
+    margin: 0 auto; /* Center the image */
+    max-width: 100%; /* Make sure the image doesn't exceed its container */
+    border-radius: 8px; /* Rounded corners for the image */
+  }
+  
+  /* Styles for the paragraph */
+  .container-1 p {
+    text-align: justify; /* Justify the text for better readability */
+    margin-top: 15px; /* Add some space between the heading and paragraph */
+  }
+
+  .container-1 a {
+    display: block;
+    margin: 0 auto; /* Center the image */
+    max-width: 100%; /* Make sure the image doesn't exceed its container */
+    border-radius: 8px; /* Rounded corners for the image */
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+  }
+
+  .container-1 a:hover {
+    background-color: #555;
+  }
+
+  .container-2 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* Background color for the container */
+    border: 1px solid orange; /* Border for better visibility */
+    border-radius: 8px; /* Rounded corners for a modern look */
+  }
+  
+  /* Styles for the heading */
+  .container-2 h3{
+    color: #333;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  /* Styles for the image */
+  .container-2 img {
+    display: block;
+    margin: 0 auto; /* Center the image */
+    max-width: 100%; /* Make sure the image doesn't exceed its container */
+    border-radius: 8px; /* Rounded corners for the image */}
+
+    .container-2 a {
+        display: block;
+        margin: 0 auto; /* Center the image */
+        max-width: 100%; /* Make sure the image doesn't exceed its container */
+        border-radius: 8px; /* Rounded corners for the image */
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;}
+
+        .container-2 a:hover {
+            background-color: #555;
+          }
+  
+
+    .container-3 {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff; /* Background color for the container */
+        border: 1px solid orange; /* Border for better visibility */
+        border-radius: 8px; /* Rounded corners for a modern look */
+      }
+    
+      .container-3 h4 {
+          color: black;   
+          text-align: center; 
+          font-weight: bold;
+          font-size: 24px;
+          text-align: center;
+      }
+
+      .container-3 img{
+        display: block;
+        margin: 0 auto; /* Center the image */
+        max-width: 100%; /* Make sure the image doesn't exceed its container */
+        border-radius: 8px; /* Rounded corners for the image */
+      
+    }
+
+    .container-3 a {
+        display: block;
+        margin: 0 auto; /* Center the image */
+        max-width: 100%; /* Make sure the image doesn't exceed its container */
+        border-radius: 8px; /* Rounded corners for the image */
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;}
+
+        .container-3 a:hover {
+            background-color: #555;
+          }
+
+    .container-4{
+        max-width: 800px;
+        margin: 35px auto;
+        padding: 20px;
+        background-color: #fff; /* Background color for the container */
+        border: 1px solid orange; /* Border for better visibility */
+        border-radius: 8px; /* Rounded corners for a modern look */
+
+    }
+
+    .container-4 h5{
+        color: rgb(15, 15, 15);
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+        
+        
+    }
+
+    .container-4 img{
+        display: block;
+        margin: 0 auto; /* Center the image */
+        max-width: 100%; /* Make sure the image doesn't exceed its container */
+        padding: 20px;
+        border-radius: 8px; /* Rounded corners for the image */
+    }
+
+    .container-4 a {
+        display: block;
+        margin: 0 auto; /* Center the image */
+        max-width: 100%; /* Make sure the image doesn't exceed its container */
+        border-radius: 8px; /* Rounded corners for the image */
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;}
+
+        .container-4 a:hover {
+            background-color: #555;
+          }
+
+    .container-5{
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff; /* Background color for the container */
+        border: 1px solid orange; /* Border for better visibility */
+        border-radius: 8px; /* Rounded corners for a modern look */
+
+    }
+    .container-5 h6{
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+    }
+    .container-5 img{
+        display: block;
+        margin: 0 auto; /* Center the image */  
+        max-width: 100%; /* Make sure the image doesn't exceed its container */
+        padding: 20px;
+        border-radius: 8px; /* Rounded corners for the image */
+    }
+
+    .container-5 a {
+        display: block;
+        margin: 0 auto; /* Center the image */
+        max-width: 100%; /* Make sure the image doesn't exceed its container */
+        border-radius: 8px; /* Rounded corners for the image */
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;}
+
+        .container-5 a:hover {
+            background-color: #555;
+
+        }
+    
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  a:hover {
+    background-color: #555;
+  }
+
+  /* Styles for the footer */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+
+    
+  
+
+

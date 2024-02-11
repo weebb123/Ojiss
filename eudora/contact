@@ -1,0 +1,46 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css"> <!-- Link to your common styles -->
+    <link rel="stylesheet" href="contact.css"> <!-- Link to specific styles for contact -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="script.js" defer></script> <!-- Link to the JavaScript file -->
+</head>
+<body>
+    <header>
+        <h1>Eudora.ng</h1>
+    </header>
+    <main>
+        <section class="contact-details">
+            <div class="contact-box whatsapp">
+                <div class="box-content">
+                    <span class="app-icon"><i class="fab fa-whatsapp"></i></span>
+                    <p>Contact us on WhatsApp</p>
+                    <a href="whatsapp://send?phone=123456789">Send Message</a>
+                </div>
+            </div>
+            <div class="contact-box instagram">
+                <div class="box-content">
+                    <span class="app-icon"><i class="fab fa-instagram"></i></span>
+                    <p>Follow us on Instagram</p>
+                    <a href="https://www.instagram.com/your_username/">Visit Profile</a>
+                </div>
+            </div>
+            <div class="contact-box snapchat">
+                <div class="box-content">
+                    <span class="app-icon"><i class="fab fa-snapchat"></i></span>
+                    <p>Add us on Snapchat</p>
+                    <a href="https://www.snapchat.com/add/your_username">Add Friend</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p><a href="home">Back to Home</a></p>
+    </footer>
+</body>
+</html>
+

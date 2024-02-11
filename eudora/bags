@@ -1,0 +1,42 @@
+<!-- bags.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css"> <!-- Link to your common styles -->
+    <link rel="stylesheet" href="bags.css"> <!-- Link to specific styles for bags -->
+    <title>Eudora.ng - Bags</title>
+    <script src="bags.js" defer></script> <!-- Link to the JavaScript file -->
+</head>
+<body>
+    <header>
+        <h1>Eudora.ng</h1>
+    </header>
+    <main>
+        <section class="bags-details">
+            <h2>Bag Collection</h2>
+            <div class="bag-item">
+                <img src="net.jpg" alt="Bag 1">
+                <p>Black box-netted drawstring bag || colour scheme customizable</p>
+                <p>Price: #10000</p>
+            </div>
+            <div class="bag-item">
+                <img src="flame.jpg" alt="Bag 2">
+                <p>Black flame themed box bag</p>
+                <p>Price: #12000</p>
+            </div>
+            <div class="bag-item">
+                <img src="white.jpg" alt="Bag 3">
+                <p>White flat-based pearl drawstring bag || colour scheme customizable.</p>
+                <p>Price: #15000</p>
+            </div>
+            <!-- Add more bag items as needed -->
+        </section>
+    </main>
+    <footer>
+        <p>Contact us: <a href="contact">Click here</a></p>
+        <p><a href="home">Back to Home</a></p>
+    </footer>
+</body>
+</html>

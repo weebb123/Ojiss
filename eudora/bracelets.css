@@ -1,0 +1,37 @@
+/* bracelets.css */
+.bracelets-details {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    
+    
+}
+
+.bracelets-details h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.bracelets-details p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bracelet-item {
+    margin-bottom: 30px;
+    text-align: center;
+    border: plum 3px solid;
+    border-radius: 20px;
+}
+
+.bracelet-item img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: plum 2px solid;
+    margin-top: 20px;
+}

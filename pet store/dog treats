@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dog Treats</title>
+  <link rel="stylesheet" href="dog treats.css">
+</head>
+<body>
+  <header>
+    <h1>Dog Treats</h1>
+    <nav>
+      <ul>
+        <li><a href="pet store">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container-1">
+    <h2>1. Hill Science diet puppy small bites dry dog food</h2>
+    <img src="hill science.png" alt="Hill Science Diet Puppy Food">
+    <p>Hill’s Science Diet’s dog food for puppies is designed for dogs up to 1 year old and is packaged in a small, easy-to-digest kibble, according to the brand...</p>
+    <a href="https://www.amazon.com/Science-Diet-Healthy-Development-Chicken/dp/B000261MX6?th=1" target="_blank" class="button">Buy Now</a>
+  </div>
+
+  <div class="container-2">
+    <h3>2. The Honest Kitchen Whole Grain Chicken Recipe Dehydrated Dog Food</h3>
+    <img src="honest kitchen.png" alt="The Honest Kitchen Dog Food">
+    <p>
+        Nutrition: First ingredients are dehydrated chicken, organic barley, and dehydrated potatoes
+         | Breed size: All breed sizes 
+         | Wet or dry food: Dry dehydrated 
+         | Cost: $7.99 per pound
+    </p>
+    <a href="https://www.amazon.com/Honest-Kitchen-Dehydrated-Organic-Chicken/dp/B00TM9PIWA?th=1" target="_blank" class="button">Buy Now</a>
+  </div>
+
+  <div class="container-3">
+    <h4>3. Royal Canin Medium Adult Dry Dog Food</h4>
+    <img src="royal canin.png" alt="Royal Canin Dog Food">
+    <p>
+        Nutrition: First ingredients are water, pork by-products, and pork liver
+         | Breed size: All breed sizes 
+         | Wet or dry food: Wet 
+         | Cost: $0.37 per pound
+    </p>
+    <a href="https://www.amazon.com/Royal-Canin-Health-Nutrition-30-Pound/dp/B00CITL9N8?th=1" target="_blank" class="button">Buy Now</a>
+  </div>
+
+  <div class="container-4">
+    <h5>4. Stella & Chewy’s Freeze-Dried Raw Stella’s Super Beef Dinner Patties Grain-Free Dog Food</h5>
+    <img src="stella.png" alt="Stella & Chewy’s Dog Food">
+    <p>
+        Nutrition: First ingredients are turkey with ground bone, turkey liver, and turkey gizzard
+         | Breed size: All breed sizes 
+         | Wet or dry food: Dry dehydrated raw
+          | Cost: $2.25 per pound 
+    </p>
+    <a href="https://www.amazon.com/Stella-Freeze-Dried-StellaS-Patties-Grain-Free/dp/B0015G862M" target="_blank" class="button">Buy Now</a>
+  </div>
+
+  <div class="container-5">
+    <h6>5. JustFoodForDogs PantryFresh Lamb & Brown Rice</h6>
+    <img src="justfordogs.png" alt="JustFoodForDogs Dog Food">
+    <p>
+        Nutrition: First ingredients are lamb hearts, brown rice, and cauliflower
+         | Breed size: All breed sizes 
+         | Wet or dry food: Wet food 
+         | Cost: $0.53 per pound
+    </p>
+    <a href="https://www.amazon.com/JustFoodForDogs-Pantry-Fresh-Human-Natural/dp/B081QTF2QW" target="_blank" class="button">Buy Now</a>
+  </div>
+
+  <!-- Link back to index.html -->
+  <a href="pet store">Home Page</a>
+
+  <footer>
+    <p>&copy; 2023 Pet Store. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+

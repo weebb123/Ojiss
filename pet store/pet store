@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Store</title>
+  <link rel="stylesheet" href="petstore.css">
+
+  <!-- Add this script to the end of your HTML, just before </body> -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const contactForm = document.getElementById('contactForm');
+    const formContainer = document.getElementById('form');
+
+    contactForm.addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      // Assuming you want a simple fade-out animation
+      formContainer.style.animation = 'fadeOut 1s forwards';
+
+      // Add a delay before showing the thank-you message
+      setTimeout(function() {
+        // Hide the form after the animation
+        formContainer.style.display = 'none';
+
+        // Display the thank-you message or any other content
+        const thankYouMessage = document.createElement('p');
+        thankYouMessage.textContent = 'Thank you for your submission!';
+        formContainer.parentNode.appendChild(thankYouMessage);
+      }, 1000); // Adjust the delay (in milliseconds) based on your animation duration
+    });
+  });
+</script>
+
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Pet Store</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Welcome to our pet store! We are passionate about providing the best care for your pets.</p>
+    </section>
+
+    <section id="products">
+      <h2>Our Products</h2>
+      <ul>
+        <li><a href="dog treats">Dog Treats</a></li>
+        <li><a href="cat treats"> Cat Treats</a></li>
+        <li><a href="animal supplies"> Animal Supplies</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Feel free to contact us for any inquiries or questions.</p>
+      <p>Email: info@petstore.com</p>
+      <p>Phone: 123-456-7890</p>
+  </main>
+
+
+
+  <footer>
+    <p>&copy; 2023 Pet Store. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Smooth scroll functionality
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+  
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+    });
+  </script>
+  
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const contactForm = document.getElementById('contactForm');
+  
+      contactForm.addEventListener('submit', function(event) {
+        event.preventDefault();
+  
+        // Add your form submission logic here
+        // For now, let's just log a message
+        console.log('Form submitted!');
+      });
+    });
+  </script>
+  
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animal Supplies</title>
+    <link rel="stylesheet" href="animal supplies.css">
+</head>
+<body>
+    <header>
+       <h1>Animal Supplies</h1> 
+       <nav>
+        <ul>
+          <li><a href="pet store">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="no1">
+        <h2>Kennel cleaning products</h2>
+        <img src="kennel-cleaner.webp">
+        <p>A dog’s kennel requires regular cleaning and disinfecting, lest bacteria and germs that lead to infections may turn up uninvited. Clean up the fecal matter, hair, dirt, and vomit stains that are also the root cause of foul smell. Using a good disinfectant meant for kennels must follow the cleaning procedure as it will help in eliminating bacteria and other infective agents. If you don’t want your house to have a distinct ‘not so pleasant smell’ emanating from your dog’s coat or piss, then an odor neutralizer/eliminator is your best bet. Also it can be used to house break the pet and sprayed on a carpet/furniture item that he previously soiled to prevent it from depositing a scent mark in the future. A dog’s deodorizer spray comes handy when a dog especially with thicker hair has a perennial and typical foul smell. This simple remedy attacks the stink instantly</p>
+        <a href="https://www.amazon.com/Pet-Stain-Odor-Miracle-Lavender/dp/B0873CPTST/ref=sr_1_20_sspa?adgrpid=152698102039&hvadid=673717496874&hvdev=c&hvlocphy=9076666&hvnetw=g&hvqmt=b&hvrand=17050469820968078253&hvtargid=kwd-362453093677&hydadcr=20918_13504426&keywords=pet%2Bodor%2Beliminator%2Bfor%2Bcarpet&qid=1701554218&sr=8-20-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&th=1" target="_blank" class="button">Buy Now"</a>
+
+    </div>
+    
+    <div class="no2">
+        <h3>Dog grooming gloves</h3>
+        <img src="grooming-glove.webp">
+        <p>
+            Dog owners can use grooming gloves to remove the slack hair from the dog’s coat that fall off  upon running the glove, this item can be used in a similar way a brush is used for grooming
+        </p>
+        <a href="https://www.amazon.com/Pecute-Grooming-Resistant-High-Density-Massaging/dp/B0BCQ5KSJT/ref=sr_1_2_sspa?keywords=grooming%2Bgloves&qid=1701554601&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1" target="_blank" class="button">Buy Now</a>
+
+    </div>
+
+    <div class="no3">
+        <h4>Anti-tick powder</h4>
+        <img src="Anti-tick.webp">
+        <p>
+            For the perfect flea control solution anti tick powder for dogs by Himalaya or Notix can be rubbed all over the pet’s body to tackle the problem of flea infestation that is especially common during summers. Among anti tick shampoos for dogs we recommend Bayer Bolfo shampoo for dogs for treating mild to medium infestations.
+        </p>
+        <a href="https://www.amazon.com/Zodiac-Powder-Puppies-Kittens-6-ounce/dp/B00106ZWJM/ref=zg_bs_g_2975388011_sccl_1/138-2501442-3287558?psc=1" target="_blank" class="button">Buy Now</a>
+    </div>
+
+    <a href="pet store">Home</a>
+
+    <footer>
+        <p>Copyright &copy; 2023</p>
+    </footer>
+    

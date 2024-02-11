@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>cat treats</title>
+    <link rel="stylesheet" href="cat treats.css">
+</head>
+<body>
+    <header>
+        <h1>cat treats</h1>
+        <nav>
+            <ul>
+                <li><a href="pet store">Home</a></li>
+                <li><a href="dog treats.html">About</a></li>
+                <li><a href="cat treats.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<div class="container-1">
+    <h2>Purina ONE Tender Selects Blend Dry Cat Food (7-Pound Bag)</h2>
+    <img src="purinaone.png">
+    <p>
+        Type: Dry | Life stage: Adults | Weight: 7 pounds | Calories: 364 kcal/cup | Flavors: Salmon or chicken
+    </p>
+
+    <p2>
+        The Purina ONE Tender Selects Blend is a popular option for adult cats. The dry kibble comes in either chicken or salmon flavors, and real protein is the first ingredient on the list. The formula is made with natural prebiotic fiber to support digestive health, as well as beneficial vitamins and minerals to ensure your cat has a healthy coat and skin. This particular dry cat food has “meaty morsels” mixed into the regular kibble, providing a bit of variety for your cat, and it’s free from fillers, artificial flavors and preservatives.
+    </p2>
+    <a href="https://www.amazon.com/Purina-ONE-Tender-Selects-Salmon/dp/B000R4H2MI?th=1" target="_blank" class="button">Buy Now</a>
+  
+</div>
+
+<div class="container-2">
+    <h3>Hill's Science Diet Adult Dry Cat Food (7-Pound Bag)</h3>
+    <img src="hill cat.png">
+    <p>
+        Type: Dry | Life stage: Adults ages 1-6 | Weight: 7 pounds | Calories: 502 kcal/cup | Flavors: Chicken 
+    </p>
+    <p2>
+        Many veterinarians recommend Hill’s Science Diet as a high-quality pet food brand, and its dry cat food is highly rated among pet owners, as well. The kibble is made from natural, high-quality ingredients and free from artificial colors, flavors or preservatives, and it’s specially formulated to meet the nutritional needs of cats between the ages of one and six. The dry food contains omega-6 fatty acids for skin and coat health, as well as vitamins and antioxidants for a ​​healthy immune system. Best of all, most cat owners say their pets love the taste of the kibble. 
+    </p2>
+    <a href="https://www.amazon.com/Science-Diet-Optimal-Chicken-Recipe/dp/B009B87SAC?th=1" target=_blank class="button">Buy Now</a>
+</div>
+
+<div class="container-3">
+    <h4>Royal Canin® Feline Health Nutrition Kitten Dry Cat Food</h4>
+    <img src="chaton.png">
+    <p>This Royal Canin dry food has all the vitamins, minerals, antioxidants, and prebiotics young kittens need to thrive. It contains immune-supporting supplements (antioxidants, vitamins, prebiotics, and probiotics), and the food’s high fat content (16%) helps support a kitten’s rapid growth and development. The kibble is palatable, highly digestible, and designed specifically for tiny kitten mouths.</p>
+    <a href="https://www.amazon.com/Royal-Canin-Feline-Nutrition-Kittens/dp/B00ECQ966W?th=1" target="_blank" class="button">Buy Now</a>
+</div>
+
+<div class="container-4">
+    <h5>Purina Beyond® Simply Indoor Wild-Caught Salmon, Egg, & Sweet Potato Recipe</h5>
+    <img src="beyond.png">
+    <a href="https://www.amazon.com/Purina-Beyond-Indoor-Natural-Protein/dp/B07D1ZZFQH?th=1" target="_blank" class="button">Buy Now</a>
+    <p>
+        A low-fat and grain-free diet.
+For pet parents who have kitties with food allergies, this grain-free cat food is free of corn, wheat, soy, poultry byproducts, artificial colors and flavors, and preservatives. The wild-caught salmon formula also contains 10% less fat than other Purina Beyond cat foods.
+    </p>
+</div>
+
+<div class="container-5">
+    <h6>Purina Pro Plan Complete Essentials Chicken Entrée in Gravy Wet Cat Food</h6>
+    <img src="gravy.png">
+    <p>
+        Life stage: Adult 
+        | Nutritional breakdown: High protein, moderate fat, low carb 
+        | Wet food or dry food: Wet, meat-in-gravy 
+        | Approximate cost per ounce: $0.34
+    </p>
+    <p>
+        this Purina Pro Plan formula should check all the nutritional boxes for most adult cats without any special needs. Because Purina employs full-time veterinary nutritionists and invests heavily in research and development, it’s a favorite brand of veterinarians like Cori Blair of Feline Health
+    </p>
+    <a href="https://www.amazon.com/Purina-Pro-Plan-Chicken-Entree/dp/B00RVMMMM4?th=1" target="_blank" class="button">Buy Now</a>
+</div>
+
+<a href="pet store">Home</a>
+
+<footer>
+    <p>&copy; 2023 Pet Store. All rights reserved.</p>
+</footer>
+    
+</body>
+</html>

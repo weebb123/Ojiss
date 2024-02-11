@@ -1,0 +1,209 @@
+<!-- index.html (Homepage) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Eudora.ng - Home</title>
+    <script src="home.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>EUDORA.NG</h1>
+            <a href="necklaces">Necklaces</a>
+            <a href="bracelets">Bracelets</a>
+            <a href="bags">Bags</a>
+            <a href="accessories">Accessories</a>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="overlay2">
+            <h2>Eudora.ng - Timeless Beaded Jewelry for Every Occasion</h2>
+            <p>As a jewelry maker, we pride ourselves in creating unique and timeless beaded pieces that are sure to complement any outfit. Our products are meticulously crafted with high-quality materials, ensuring that they will last for years to come.</p>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <img src="pearlt.webp" alt="">
+        <div class="about-text">
+            <h1>ABOUT US</h1>
+            <h2>A Tradition of Excellence</h2>
+            <p>At Eudora.ng, we are passionate about creating high-quality beaded jewelry that will last a lifetime. Each piece is crafted with precision and care, using only the finest materials available. Our jewelry is a celebration of timeless elegance, and we are proud to share it with you.</p>
+        </div>
+    </section>
+
+    <section class="promise">
+        <div class="promise-text">
+            <h1>Our Promise to You</h1>
+            <p>At Eudora.ng, we believe that every customer deserves the best. That’s why we promise to provide you with high-quality, handcrafted jewelry that is both beautiful and durable. We stand behind our products and are committed to ensuring your complete satisfaction.</p>
+        </div>
+    </section>
+    
+ 
+    <section class="features-section">
+        <div class="feature">
+            <h3>01. High-Quality Materials</h3>
+            <p>Our jewelry is crafted with only the finest materials, including pearls, crystals, and beads, ensuring that each piece is both beautiful and long-lasting.</p>
+        </div>
+        <div class="line"></div> <!-- Line between 1 and 2 -->
+        <div class="feature">
+            <h3>02. Customizable Designs</h3>
+            <p>We offer a variety of customizable designs, allowing you to create a piece that is truly unique and tailored to your individual style.</p>
+        </div>
+        <div class="line"></div> <!-- Line between 3 and 4 -->
+        <div class="feature">
+            <h3>03. Expert Craftsmanship</h3>
+            <p>Our jewelry is crafted by skilled artisans who take great pride in their work. Each piece is made with precision and care, ensuring that it is of the highest quality.</p>
+        </div>
+        <div class="line"></div> <!-- Line between 3 and 4 -->
+        <div class="feature">
+            <h3>04. Exceptional Customer Service</h3>
+            <p>We are committed to providing our customers with exceptional service. From answering your questions to ensuring that your order is delivered on time, we are here to help.</p>
+        </div>
+    </section>
+    
+    <main>
+        <h2>Available products</h2>
+        <section class="jewelry-list">
+            <div class="jewelry-item">
+                <img src="Prnecklace.jpg" alt="Necklaces">
+                <div class="overlay2">
+                    <a href="necklaces">Necklaces</a>
+                </div>
+            </div>
+    
+            <div class="jewelry-item">
+                <img src="PRbrace.webp" alt="Bracelets">
+                <div class="overlay2">
+                    <a href="bracelets">Bracelets</a>
+                </div>
+            </div>
+    
+            <div class="jewelry-item">
+                <img src="acc,pic.webp" alt="Accessories">
+                <div class="overlay2">
+                    <a href="accessories">Accessories</a>
+                </div>
+            </div>
+    
+            <div class="jewelry-item">
+                <img src="PRbags.jpg" alt="Bags">
+                <div class="overlay2">
+                    <a href="bags">Bags</a>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Add a line between products and mission -->
+        <div class="line"></div>
+    
+       
+    
+        <!-- Add a line between mission and FAQ -->
+        <div class="line"></div>
+    
+        <!-- FAQ Section -->
+    
+        <!-- End of FAQ Section -->
+    </main>
+    
+    <!-- Add this above your FAQ section in the main -->
+    <div class="footer-faq-divider double"></div>
+    
+  <!-- ... (previous HTML content) ... -->
+
+<section class="mission-section">
+    <div class="overlay">
+        <h2>Our Mission</h2>
+        <p>At Eudora.ng, our mission is to create beautiful, high-quality beaded jewelry that will last a lifetime. We are committed to using sustainable materials and practices in our production process, and we are dedicated to providing exceptional customer service to each and every one of our customers.</p>
+    </div>
+</section>
+
+<!-- Add this above your FAQ section in the main -->
+<div class="footer-faq-divider double"></div>
+
+
+     <section class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <p><strong>Q:</strong> What types of beaded products do you sell?</p>
+                <p><strong>A:</strong> We specialize in selling a variety of beaded products including necklaces, bags, bracelets, rings, bralettes, and earrings.</p>
+                <hr>
+            </div>
+
+            <div class="faq-item">
+                <p><strong>Q:</strong> Are your products handmade?</p>
+                <p><strong>A:</strong> Yes, all our beaded products are handmade with great attention to detail.</p>
+                <hr>
+            </div>
+
+            <div class="faq-item">
+                <p><strong>Q:</strong> Do you offer customization options for the jewelry?</p>
+                <p><strong>A:</strong> Yes, we offer customization options for certain products. Please contact our customer support for more information.</p>
+                <hr>
+            </div>
+
+            <div class="faq-item">
+                <p><strong>Q:</strong> What materials are used in your beaded products?</p>
+                <p><strong>A:</strong> Our beaded products are made using high-quality beads such as glass beads, gemstones, and seed beads.</p>
+                <hr>
+            </div>
+
+            <div class="faq-item">
+                <p><strong>Q:</strong> Do you offer international shipping?</p>
+                <p><strong>A:</strong> Yes, we offer international shipping to most countries. Shipping rates may vary depending on the destination.</p>
+                <hr>
+            </div>
+        </section>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>Eudora.ng</h3>
+            <p>Stay up-to-date with the latest news and designs from Eudora.ng by following us on social media. Join our community of beaded jewelry lovers and share your Eudora.ng pieces with us!</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Shop</h3>
+            <ul>
+                <li><a href="bags">Bags</a></li>
+                <li><a href="bracelets">Bracelets</a></li>
+                <li><a href="necklaces">Necklaces</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>About</h3>
+            <ul>
+                <li><a href="about">About Us</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <p>&copy; 2023 Eudora.ng. All rights reserved.</p>
+</footer>
+
+<!-- Add this above your FAQ section in the main -->
+
+
+
+
+
+</body>
+</html>
+
+
+
+

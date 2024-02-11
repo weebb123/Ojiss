@@ -1,0 +1,54 @@
+/* necklaces.css */
+.necklaces-details {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.necklaces-details h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.necklaces-details p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.necklace-item {
+    margin-bottom: 30px;
+    text-align: center; /* Centering the item */
+    border: plum 3px solid;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.necklace-item img {
+    max-width: 40%; /* Adjust the percentage to reduce the size */
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+   margin-top: 20px;
+}
+
+
+/* necklaces.css */
+/* necklaces.css */
+footer {
+    background-color: plum;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    transition: transform 0.3s ease; /* Add a transition effect */
+  }
+  
+ 
+
+
+
+
+
+
+/* Add more styles as needed */

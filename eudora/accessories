@@ -1,0 +1,38 @@
+<!-- bags.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css"> <!-- Link to your common styles -->
+    <link rel="stylesheet" href="acc.css"> <!-- Link to specific styles for bags -->
+    <title>Eudora.ng - accessories</title>
+    <script src="acc.js" defer></script> <!-- Link to the JavaScript file -->
+</head>
+<body>
+    <header>
+        <h1>Eudora.ng</h1>
+    </header>
+    <main>
+        <section class="acc-details">
+            <h2>accessory Collection</h2>
+            <div class="acc-item">
+                <img src="super.jpg" alt="Bag 1">
+                <p>super hero accessories || each sold separately</p>
+                <p>Price: #500</p>
+            </div>
+            <div class="acc-item">
+                <img src="skull.jpg" alt="Bag 2">
+                <p>skull, flames, and smiley face pin on accessories || colour scheme customizable || each sold separately</p>
+                <p>Price: #500 - #800</p>
+            </div>
+          
+            <!-- Add more bag items as needed -->
+        </section>
+    </main>
+    <footer>
+        <p>Contact us: <a href="contact">Click here</a></p>
+        <p><a href="home">Back to Home</a></p>
+    </footer>
+</body>
+</html>

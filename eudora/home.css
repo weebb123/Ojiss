@@ -1,0 +1,418 @@
+/* Update your existing CSS or home.css file */
+header {
+    background-color: gray;
+    padding: 2em;
+}
+
+.header-container {
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+}
+
+h1 {
+    color: black;
+    text-decoration: none;
+    margin-left: 30px;
+    font-family: sans;
+    font-size: larger;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: large;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.hero-section {
+    height: 400px;
+    background-image: url('Wooden_beads.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    opacity: 2.0;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white;
+    font-size: 2em;
+    font-weight: lighter;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0);
+    font-family: sans;
+}
+
+.overlay2 h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+.overlay2 p {
+    font-size: 24px;
+    margin-right: 200px;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    height: 800px;
+    background-color: rgb(241, 241, 241);
+    margin-top: 70px;
+}
+
+.about-section img {
+    width: 600px;
+    height: 600px;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.about-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-text h1,
+.about-text h2,
+.about-text p {
+    margin: 0;
+}
+
+.about-text h1 {
+    font-size: 1.5em;
+    margin-bottom: 50px;
+    text-align: start;
+    font-family: sans;
+}
+
+.about-text h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-family: sans;
+    text-align: center;
+}
+
+.about-text p {
+    font-size: 20px;
+    font-family: sans;
+    line-height: 25px;
+}
+
+/* Existing styles remain unchanged */
+
+.promise-text {
+    text-align: center;
+    padding: 20px;
+}
+
+.promise-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-family: sans;
+}
+
+.promise-text p {
+    font-size: 20px;
+    margin: 0;
+    font-family: sans;
+    margin-bottom: 50px;
+}
+
+/* Add this to your existing CSS or home.css file */
+.features-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(241, 241, 241);
+}
+
+.feature {
+    flex: 0 0 calc(48% - 20px);
+    margin: 20px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    background-color: rgb(241, 241, 241);
+}
+
+.line {
+    flex-basis: 100%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0;
+    order: 3;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 2px;
+    font-family: sans;
+}
+
+.feature p {
+    font-size: 20px;
+    font-family: sans;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #241, 241, 241;
+}
+
+main h2 {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: sans;
+    font-size: 36px;
+}
+
+/* Existing styles remain unchanged */
+
+.jewelry-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.jewelry-item {
+    position: relative;
+    flex: 0 0 calc(48% - 20px);
+}
+
+.jewelry-item img {
+    width: 100%;
+    border-radius: 5px;
+    height: 400px;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 10px;
+    display: block;
+    border: none;
+}
+
+.overlay2 a {
+    text-decoration: none;
+    color: white;
+    text-shadow: #030303 0 0 5px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.overlay2 a:hover {
+    text-decoration: underline;
+}
+
+/* Add this to your existing CSS or home.css file */
+
+.load-more {
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #b6b6b6;
+    color: #fff;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.load-more:hover {
+    background-color: #868686;
+    color: #fff;
+}
+
+/* Hide scrollbar for the main content area */
+
+/* Style for the scrollbar in the jewelry-list section */
+.jewelry-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    overflow-y: scroll;
+    max-height: 400px;
+}
+
+.jewelry-list::-webkit-scrollbar {
+    width: 10px;
+}
+
+.jewelry-list::-webkit-scrollbar-thumb {
+    background-color: #b6b6b6;
+    border-radius: 5px;
+}
+
+.jewelry-list::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+/* ... (previous CSS content) ... */
+
+.mission-section {
+    position: relative;
+    height: 400px;
+    background-image: url('red\ beads.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.overlay h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.overlay p {
+    font-size: 25px;
+    margin: 0;
+    text-shadow: #000000 0 0 5px;
+}
+
+/* ... (remaining CSS content) ... */
+
+.faq-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-section h2 {
+    margin: 0;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.faq-item p {
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.faq-item strong {
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.faq-item:not(:last-child) hr {
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+/* ... (previous CSS content) ... */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section {
+    max-width: 300px;
+}
+
+.footer-section h3 {
+    color: #000000;
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.footer-section p {
+    margin: 10px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: lighter;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer li {
+    margin-bottom: 5px;
+}
+
+.footer-faq-divider {
+    height: 2px;
+    background-color: #ccc;
+    margin-top: 20px;
+}
+
+.double {
+    margin-bottom: 20px;
+}
+
+/* Add this to your existing CSS or home.css file */
+.line {
+    flex-basis: 100%;
+    height: 2px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+
+
+
+
+
+
+
+

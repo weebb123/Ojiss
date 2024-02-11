@@ -1,0 +1,40 @@
+<!-- bracelets.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css"> <!-- Link to your common styles -->
+    <link rel="stylesheet" href="bracelets.css"> <!-- Link to specific styles for bracelets -->
+    <title>Eudora.ng - Bracelets</title>
+    <script src="bracelets.js" defer></script> <!-- Link to the JavaScript file -->
+</head>
+<body>
+    <header>
+        <h1>Eudora.ng</h1>
+    </header>
+    <main>
+        <section class="bracelets-details">
+            <h2>Bracelet Collection</h2>
+            <div class="bracelet-item">
+                <img src="black.jpg" alt="Bracelet 1">
+                <p>Black and transparent pearl bracelets with crown accessory.</p>
+                <p>sold seperately or together || colour scheme customizable</p>
+                <p>Price: #3000</p>
+            </div>
+            <div class="bracelet-item">
+                <img src="brown.jpg" alt="Bracelet 2">
+                <p>Brown marble pearl bracelet with crown accessory || colour scheme customizable.</p>
+                <p>sold as pair</p>
+                <p>Price: #6500</p>
+            </div>
+           
+            <!-- Add more bracelet items as needed -->
+        </section>
+    </main>
+    <footer>
+        <p>Contact us: <a href="contact">Click here</a></p>
+        <p><a href="home">Back to Home</a></p>
+    </footer>
+</body>
+</html>
